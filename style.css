@@ -1,0 +1,89 @@
+:root {
+    --main-text-color: #434455
+}
+   
+
+body{
+    
+    font-family: Roboto;
+    font-size: 16px;
+    color: var(--main-text-color);
+}
+
+.header {
+
+}
+.header__logo {
+    color: var(--main-text-color);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.header__logo span { 
+color: #4D5AE5
+}
+.header_logo:active {
+    color: var(--main-text-color)
+}
+
+.header__list {
+}
+.header__item {
+}
+.header__adress {
+}
+.header__adress-item {
+}
+.main {
+}
+.hero {
+}
+.hero__title {
+}
+.hero__button {
+}
+.advantages {
+}
+.agvantages__list {
+}
+.advantages-list {
+}
+.adventages-list__item {
+}
+.advantages-item {
+}
+.adavtages-item__title {
+}
+.advantages-item__text {
+}
+.projects {
+}
+.projects__title {
+}
+.projects__list {
+}
+.projects__item {
+}
+.team {
+}
+.team__list {
+}
+.team__item {
+}
+.team-item {
+}
+.team-item__title {
+}
+.team-item__test {
+}
+.footer {
+}
+.footer__logo {
+}
+.footer__description {
+}
