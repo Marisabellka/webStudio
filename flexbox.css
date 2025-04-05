@@ -1,0 +1,21 @@
+.parent{
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    outline: 1px solid violet;
+    height: 300px;
+    align-items: center;
+    flex-direction: column;
+}
+.element{
+    min-height: 70px;
+    margin-bottom: 5px;
+    background: red;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    font-weight: 700px;
+}

@@ -11,7 +11,19 @@ body{
 }
 
 .header {
+    
+    min-height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
 
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
 }
 .header__logo {
     color: var(--main-text-color);
@@ -35,6 +47,10 @@ color: #4D5AE5
     list-style: none;
     margin: 0;
     padding-left: 0;
+    display: flex;
+    flex: 1 1 auto;
+    margin-left: 76px;
+    gap: 40px;
 }
 .header__item {
     color: #2E2F42;
@@ -50,6 +66,9 @@ color: #4D5AE5
     letter-spacing: 0.32px;
 }
 .header__adress {
+    display: flex;
+    gap: 40px;
+    
 
 }
 .header__adress-item {
@@ -62,6 +81,8 @@ color: #4D5AE5
 
 }
 .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
     background: #2E2F42;
     text-align: center;
 }
@@ -86,22 +107,33 @@ color: #4D5AE5
     color: #FFF;
     border: none;
     border-radius: 4px;
+margin-top: 40px;
 
 
 }
 .advantages {
+    padding-bottom: 120px;
+    padding-top: 120px;
+   
 }
 .agvantages__list {
     padding: 0;
     margin: 0;
 }
 .advantages-list {
-}
-.adventages-list__item {
+    display: flex;
+    gap: 24px;
     list-style: none;
+}
+.advantages-list__item {
+    list-style: none;
+   
+  
 
 }
 .advantages-item {
+   
+    
 }
 .adavtages-item__title {
     margin: 0;
@@ -115,21 +147,37 @@ color: #4D5AE5
     margin: 0;
 }
 .projects {
+    padding-top: 72px;
+    padding-bottom: 72px;
+    text-align: center;
 }
 .projects__title {
     margin: 0;
+    
+    
+    
 }
 .projects__list {
     margin: 0;
     padding: 0;
+    display: flex;
+    gap: 24px;
+    padding-top: 72px;
+    padding-bottom: 120px;
+
 }
 
 .projects__item {
 }
 .team {
+    text-align: center;
+   
+   
 }
 .team__title{
     margin: 0;
+    padding-bottom: 72px;
+    
 
 }
 
@@ -137,6 +185,11 @@ color: #4D5AE5
 .team__list {
     margin: 0;
     padding: 0;
+    display: flex;
+    gap: 24px;
+    padding-bottom: 120px;
+    
+    
 
 }
 .team__item {
@@ -146,17 +199,32 @@ color: #4D5AE5
 }
 .team-item__title {
     margin: 0;
+    padding-top: 32px;
+    padding-bottom: 8px;
+   
 }
 .team-item__test {
     margin: 0;
+    padding-bottom: 32px;
 }
 .footer {
     background:  #2E2F42;
     color: #FFFFFF;
+    height: 312px;
+    padding-top: 102px;
+
 }
 .footer__logo  {
     color: #FFFFFF;
+    padding-bottom: 18px;
+   
 
 }
 .footer__description {
+}
+
+.container{
+    max-width:1130px;
+margin: 0 auto;
+padding: 0 15px;
 }
